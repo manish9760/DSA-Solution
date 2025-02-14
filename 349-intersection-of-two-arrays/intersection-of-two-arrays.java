@@ -17,6 +17,7 @@ class Solution {
             resultarr[i++]=num;
         }
         return resultarr;
+        
     }
 }
 //step1: first i add all elements to set1 which is unique of nums1
