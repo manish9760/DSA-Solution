@@ -17,7 +17,7 @@ class Solution {
         int[] result_array = new int [arr.size()];
         int k=0;
         for(int num: arr){
-            result_array[k] = arr.get(k);
+            result_array[k] = num;
             k++;
         }
         return result_array;
