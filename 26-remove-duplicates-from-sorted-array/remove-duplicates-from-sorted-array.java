@@ -16,7 +16,6 @@ class Solution {
         for(int k: nums){
             set.add(k);
         }
-       // int result[] = new int[set.size()];
         int j=0;
         for(int num: set){
             nums[j++]= num;
