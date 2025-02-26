@@ -4,7 +4,7 @@ class Solution {
         int [] result = new int[n];
         for(int i=0;i<n;i++){
             result[i]=-1;
-            for(int j=0;j<n;j++){
+            for(int j=1;j<n;j++){
                 if(nums[(i+j)%n]>nums[i]){
                     result[i]=nums[(i+j)%n];
                     break;
