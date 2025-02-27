@@ -32,7 +32,7 @@ class Solution {
         return helper(arr,n);
         
     }
-    int helper(int arr[],int n){
+    public int helper(int arr[],int n){
         if(arr[n]!=-1) return arr[n];
         else return arr[n] = helper(arr,n-1)+helper(arr,n-2);
     }
